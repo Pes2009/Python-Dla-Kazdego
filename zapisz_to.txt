@@ -1,0 +1,3 @@
+Wiersz 1
+To jest wiersz 2
+Ten tekst tworzy wiersz 3

@@ -13,3 +13,5 @@ print("liczy od tylu od 9 do 0")
 
 for dycha in range(10,0,-1):
 	print(dycha, end=" ")
+
+input("\n\nAby zakończyć program, naciśnij klawisz Enter.")

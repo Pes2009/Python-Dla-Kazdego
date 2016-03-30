@@ -8,9 +8,13 @@ print ("twoj dobytek zawiera ",len(invetory)," elementy.")
 input("\nAby kontynuowac misje,wcisnij enter")
 print("dozyej dni w ktorym stoczysz walke.")
 input("\nAby kontynuowac misje,wcisnij enter")
-
-i = int(input("wprowadz indeks elementu inventarza"))
-print(invetory[i])
+i = None
+try:
+	i = int(input("wprowadz indeks elementu inventarza"))
+	if i >=4:
+		print(invetory[i])
+except:
+	print("wystapil blad")
 input("\nAby kontynuowac misje,wcisnij enter")
 box = ("zloto", "klejnoty")
 print("znajdujesz skrzynia ktora zawiera: ", box,)

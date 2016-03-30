@@ -7,7 +7,6 @@ print ("twoj dobytek zawiera ",len(invetory)," elementy.")
 input("\nAby kontynuowac misje,wcisnij enter")
 print("dozyej dni w ktorym stoczysz walke.")
 input("\nAby kontynuowac misje,wcisnij enter")
-
 i = int(input("wprowadz indeks elementu inventarza"))
 print(invetory[i])
 input("\nAby kontynuowac misje,wcisnij enter")
