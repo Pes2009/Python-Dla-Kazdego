@@ -1,7 +1,10 @@
 # gra turniej wiedzy
 # gra sprawdza wiedze ogolna ,odczytuje dane z pliku tekstowego
-
+import pickle, shelve
 import sys
+
+
+najlepsze_wyniki = []
 
 def open_file(file_name, mode):
 	"""otworz plik."""
@@ -77,6 +80,14 @@ def main():
 	otwieracz.close()
 	print("to bylo ostatnie pytanie smieszku hehe.\n")
 	print("twoj wynik to : ", score)
+	nick = input("podaj swoj nick:")
+	entry = (score, nick)
+	najlepsze_wyniki.append(entry)
+	najlepsze_wyniki(reverse=True)
+	najlepsze_wyniki = najlepsze_wyniki[:5]	
+
+	print(najlepsze_wyniki)
+
 		
 main()
 input("\n\nAby zakończyć program, naciśnij klawisz Enter.")
