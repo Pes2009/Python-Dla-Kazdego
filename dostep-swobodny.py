@@ -1,12 +1,12 @@
 # dostep swobodny
 # demonstruje indeksowanie lancuchow znakow
 import random
-word = "ziom"
-#word = input("warto zmiennej word to: ")
-for i in range(10):
+
+word = input("warto zmiennej word to: ")
+for i in word:
 	print (random.choice(word))
 
-print(word[3])
+print("\n",word)
 
 input("\n\nAby zakonczyc pogram,nacisnij enter.")
 

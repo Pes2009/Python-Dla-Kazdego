@@ -5,7 +5,7 @@ import os
 print("Witaj w systemie firmy bezpieczny komputer SA")
 print("-- bezpieczenstwo to podstawa naszego dzialania\n")
 
-password = ""
+password = None
 
 while password != "sekret":
     password = input("Wprowadz haslo: ")

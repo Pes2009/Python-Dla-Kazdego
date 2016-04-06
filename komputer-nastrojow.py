@@ -10,14 +10,14 @@ mood = random.randint(1, 3)
 
 if mood == 1:
 	# szczesliwy
-	print ("xD")
+	print ("szczesliwy")
 
 elif mood == 2:
 	# obojetny
-	print("(-.-)")
+	print("(zamyslony)")
 
 elif mood == 3:
-	print(":(")
+	print("smutny")
 
 else:
 	print("Nieprawidlowa wartosc nastroju! ( musisz byc naprawde w zlym humorze).")
