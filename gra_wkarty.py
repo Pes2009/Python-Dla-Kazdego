@@ -85,7 +85,7 @@ print("\n moja reka")
 print(my_hand)
 
 my_hand.clear()
-print("\nMoja reka po usunieciu kart wyglada tak : ")
+print("\nMoja reka po usunieciu kart wyglada twojak : ")
 print(my_hand)
 
 input("\n\nAby zakończyć program, naciśnij klawisz Enter.")
