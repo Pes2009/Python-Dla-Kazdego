@@ -1,8 +1,9 @@
 # progrm ktory rzuca 100x moneta i podaje ilosc orzelkow i reszt
 import random
+
 licznik = 0
-moneta = ("orzel", "resztka")
-orzel = 0
+moneta  = ("orzel", "resztka")
+orzel   = 0
 resztka = 0
 
 while licznik < 100:

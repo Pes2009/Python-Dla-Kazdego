@@ -1,9 +1,10 @@
 # program ktory losuje 1 z 5 przepowiedni z ciasteczka
 import random
+
 print("Witam w programie przepowiednia ciasteczkowa")
 print("wylosujemy jedna z pieciu przepowiedni uwaga!")
 los = random.randint(1, 5)
-print (los)
+
 
 if los == 1:
 	print("wylosowales pierwsza przepowiednie")

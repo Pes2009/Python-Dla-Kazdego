@@ -4,7 +4,6 @@ import pickle, shelve
 import sys
 
 
-najlepsze_wyniki = []
 
 def open_file(file_name, mode):
 	"""otworz plik."""
@@ -49,6 +48,7 @@ def witaj(tytul):
 
 
 def main():
+	najlepsze_wyniki = []
 	otwieracz = open_file("mafia.txt", "r")
 	tytul = next_line(otwieracz)
 	witaj(tytul)
@@ -83,9 +83,7 @@ def main():
 	nick = input("podaj swoj nick:")
 	entry = (score, nick)
 	najlepsze_wyniki.append(entry)
-	najlepsze_wyniki(reverse=True)
 	najlepsze_wyniki = najlepsze_wyniki[:5]	
-
 	print(najlepsze_wyniki)
 
 		

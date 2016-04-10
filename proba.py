@@ -22,12 +22,13 @@ class Postac(object):
 		print("moj poziom to ", self.lvl)
 
 
-	def zycie(self,hp):
-		fajw = 0
-		fajw = self.lvl
-		fajw = (fajw * 5)
-		self.hp = hp + fajw
-		print(self.hp)
+	def zycie(self):
+		max_zycie = 100 + (self.lvl * 5)
+		self.max_zycie = max_zycie
+		poziom_zycia = self.hp
+		self.poziom_zycia = poziom_zycia
+		print("max zycie to:", max_zycie)
+		print("\naktualne zycie to ",poziom_zycia)
 
 
 	def expi(self,exp):
@@ -54,6 +55,9 @@ class Postac(object):
 			self.lvl = 10
 		print("moj exp to ", self.exp)
 
+	def  ciosy(self):
+		self.poziom_zycia = poziom_zycia - enemy.
+
 
 
 char = Postac("Ziom")
@@ -72,7 +76,16 @@ print(char)
 
 
 
-char.zycie(100)
+char.zycie()
+
+
+class Smok(object):
+	"""smok"""
+	def __init__(self,atak = 50, hp = 1000):
+		self.atak = atak
+		self.hp = hp
+
+	def ogien(self)
 
 
 
