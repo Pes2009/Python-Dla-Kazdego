@@ -52,3 +52,6 @@ while choice != "0":
 #nieznana opcja
 	else:
 		print("niestety,", choice, "nie jest prawidlowym wyborem.")
+
+
+input("\n\nAby zakończyć program, naciśnij klawisz Enter.")

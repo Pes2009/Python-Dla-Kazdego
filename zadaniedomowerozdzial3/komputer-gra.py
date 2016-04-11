@@ -6,7 +6,7 @@
 
 import random
 
-liczba = 55
+liczba = int(input("wprowadz liczbe dla komputera"))
 print(liczba)
 
 i= 0
